@@ -6,21 +6,21 @@ public class Estudiante {
     public String curso;
 
     // Constructor por defecto con valores genéricos
-    Estudiante() {
+    public Estudiante() {
         nombre = "Estudiante";
         edad = 18;
         curso = "Sin asignar";
     }
 
     // Constructor con nombre y edad
-    Estudiante(String nombre, int edad) {
+    public Estudiante(String nombre, int edad) {
         this.nombre = nombre;
         this.edad = edad;
         this.curso = "Sin asignar";
     }
 
     // Constructor completo — usa this() para delegar
-    Estudiante(String nombre, int edad, String curso) {
+    public Estudiante(String nombre, int edad, String curso) {
         this(nombre, edad);   // llama al constructor de dos parámetros
         this.curso = curso;
     }

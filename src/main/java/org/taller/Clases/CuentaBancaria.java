@@ -6,21 +6,21 @@ public class CuentaBancaria {
     public String tipoCuenta;
 
     // Constructor por defecto
-    CuentaBancaria() {
+    public CuentaBancaria() {
         numeroCuenta = "000-000";
         saldo = 0.0;
         tipoCuenta = "Ahorros";
     }
 
     // Constructor con dos parámetros
-    CuentaBancaria(String numeroCuenta, String tipoCuenta) {
+    public CuentaBancaria(String numeroCuenta, String tipoCuenta) {
         this.numeroCuenta = numeroCuenta;
         this.tipoCuenta = tipoCuenta;
         this.saldo = 0.0;
     }
 
     // Constructor sobrecargado con tres parámetros
-    CuentaBancaria(String numeroCuenta, double saldo, String tipoCuenta) {
+    public CuentaBancaria(String numeroCuenta, double saldo, String tipoCuenta) {
         this.numeroCuenta = numeroCuenta;
         this.saldo = saldo;
         this.tipoCuenta = tipoCuenta;

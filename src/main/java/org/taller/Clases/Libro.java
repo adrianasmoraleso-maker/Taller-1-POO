@@ -8,14 +8,14 @@ import java.util.Scanner;
         public int numeroPaginas;
 
         // Constructor por defecto
-        Libro() {
+        public Libro() {
             titulo = "Sin título";
             autor = "Desconocido";
             numeroPaginas = 0;
         }
 
         // Constructor parametrizado
-        Libro(String titulo, String autor, int numeroPaginas) {
+        public Libro(String titulo, String autor, int numeroPaginas) {
             this.titulo = titulo;
             this.autor = autor;
             this.numeroPaginas = numeroPaginas;
